@@ -273,11 +273,11 @@ body{
 }
 
 .skills-container{
-    border: 1px solid red;
+/*     border: 1px solid red; */
     
     width: 90%;
     margin: auto;
-   
+    margin-bottom:50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 4%;
@@ -376,8 +376,8 @@ body{
 /* ////////////////////////////////////// */
 
 /* timeline */
-
-.timeline{
+/* 
+/* .timeline{
     display: block;
     width: 80%;
     margin: 150px auto;
@@ -388,8 +388,8 @@ body{
 }
 
 .card{
-    width: 45%;
-    padding: 30px;
+    width: 45%; */
+/*     padding: 30px;
     border-radius: 10px;
     color: #fff;
     display: block;
@@ -403,8 +403,8 @@ body{
 }
 
 .card:nth-child(even):before{
-    content: '';
-    position: absolute;
+    content: ''; */
+/*     position: absolute;
     left: -15%;
     top: 50%;
     transform: translateY(-50%);
@@ -424,9 +424,9 @@ body{
     height: 2px;
     background: #fff;
     z-index: -1;
-}
+} */
 
-.card:nth-child(odd):before{
+/* .card:nth-child(odd):before{
     content: '';
     position: absolute;
     right: -13%;
@@ -445,9 +445,9 @@ body{
     top: 50%;
     transform: translateY(-50%);
     width: 7%;
-    height: 2px;
+    height: 2px; */
     background: #fff;
-    z-index: -1;
+/*     z-index: -1;
 }
 
 .card:nth-child(2), .card:nth-child(2):before{
@@ -463,10 +463,10 @@ body{
     background: #565252;
 }
 .card:nth-child(6), .card:nth-child(6):before{
-    background: #4fa0ff;
-}
+    background: #4fa0ff; */
+/* } */ */
 
-.card:nth-child(even) .card-body:before{
+/* .card:nth-child(even) .card-body:before{
     content: '';
     position: absolute;
     left: -12%;
@@ -481,7 +481,7 @@ body{
     font-size: 30px;
     font-weight: 300;
     margin-bottom: 20px;
-}
+} */
 
 /* ///////////////////////////////////// */
 
